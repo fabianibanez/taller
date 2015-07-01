@@ -1,0 +1,150 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+@import url(http://fonts.googleapis.com/css?family=Dancing+Script);
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+	background: #fff;
+}
+
+/*foundation*/
+
+.orbit-timer span, .orbit-progress, .orbit-slide-number {
+	visibility: hidden;
+}
+
+.contain-to-grid {
+	background: #201e2b;
+	width: 100%;
+}
+
+.top-bar {
+	background: transparent;
+}
+
+/*cabecera y navegacion*/
+
+header {
+	background: url(../images/astro.jpg) center fixed;
+	background-size: cover;
+	padding: 16% 0;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+header span {
+	font-family: 'Dancing Script', cursive;
+	color: #fff;
+	font-size: 2em;
+}
+
+header h1 {
+	font-size: 2em;
+	color: #fff;
+}
+
+section {
+	padding: 4% 0;
+}
+
+section .row hgroup {
+	text-align: center;
+	margin: 2em 0;
+}
+
+section .row hgroup h1 {
+	font-size: 2em;
+}
+
+/*modulo servicios*/
+
+section:nth-of-type(1) {
+	background: #1880DB;
+}
+
+section:nth-of-type(1) h1 {
+	color: #fff;
+}
+
+section:nth-of-type(1) h2 {
+	color: #fff;
+	padding: 0.5em 0;
+}
+
+section:nth-of-type(1) p {
+	color: #fff;
+}
+
+/*modulo destacado */
+
+section:nth-of-type(2) {
+	background: #0661B1;
+}
+
+section:nth-of-type(2) h1 {
+	color: #fff;
+}
+
+section:nth-of-type(2) h2 {
+	color: #fff;
+	padding: 0.5em 0;
+}
+
+section:nth-of-type(2) p {
+	color: #fff;
+}
+
+/*modulo portafolio */
+
+section:nth-of-type(3) {
+	background: #eae3ce;
+}
+
+section:nth-of-type(3) h2 {
+	color: #111;
+	padding: 0.5em 0;
+}
+
+section:nth-of-type(3) p {
+	color: #111;
+}
+
+p {
+	font-size: 85%;
+	font-family: 'Droid Serif', serif;
+	font-weight: 400;
+	color: #333;
+	margin-top: 1em;
+	text-align: justify;
+}
+
+h1, h2, h3 {
+	font-size: 1.3em;
+	text-transform: uppercase;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	color: #201e2b;
+}
+
+.intro {
+	background: #e1382d;
+}
+
+#medianil {
+	background: url(../images/astro.jpg) center fixed;
+	background-size: cover;
+	padding: 6% 0;
+}
+
+footer {
+	padding: 1% 0;
+}
+
+footer p {
+	text-align: center;
+}
